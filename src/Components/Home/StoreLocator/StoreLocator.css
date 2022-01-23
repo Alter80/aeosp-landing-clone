@@ -1,0 +1,47 @@
+.store-locator{
+    background-color: #FFFEF2;
+}
+/* 
+.store-locator-main{
+    display: flex !important;
+    justify-content: space-around;
+} */
+
+
+.store-locator-info{
+   
+    text-align: start;
+    margin-left: 5%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* .store-locator-slider{
+    padding: 0 !important;
+} */
+
+.store-locator-btn{
+    background-color:#FFFEF2 ;
+    border: 1px solid #333333;;
+   
+    color: #333333;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+.store-locator-btn:hover{
+    background-color: #333333;
+    color: #FFFEF2;
+}
+@media only screen and (max-width: 600px){
+    .store-locator-info{
+        height: 30vh;
+    }
+}

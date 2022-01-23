@@ -1,0 +1,14 @@
+.quote-bg{
+    background-color: #FFFEF2;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width: 600px){
+    .quote-bg{
+        height: 40vh;
+    }
+}

@@ -1,0 +1,52 @@
+.banner-img{
+    background-image: url('https://www.aesop.com/u1nb1km7t5q7/4zmFlMxF06BqMyZN9tWjx/af52c49d80ca10bb8f7ee9491eeea24d/Aesop_Lunar_New_Year_2022_Web_Homepage_Primary_Full_Bleed_Desktop_XL_5120x1856px.jpg');
+    height: 55vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-text{
+    margin-top: 6%;
+    margin-left: 3%;
+    font-size: 40px;
+}
+.banner-text2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 6%;
+    margin-left: 8%;
+
+}
+.banner-btn{
+    border: 1px solid white;
+    color: white;
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+.banner-btn:hover{
+    background-color: #FFFEF2;
+    color: black;
+}
+@media only screen and (max-width: 600px){
+    .banner-text{
+       font-size: 20px;
+    } 
+    .banner-img{
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    .banner-text2{
+        display: none;
+    }
+    .banner-btn{
+        display: none;
+    }
+}

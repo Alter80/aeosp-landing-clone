@@ -1,0 +1,7 @@
+.product-slider{
+    background-color: #FFFEF2;
+    width: 100%;
+}
+.slick-slide img{
+    display: inline;
+}

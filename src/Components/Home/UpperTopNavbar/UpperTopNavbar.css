@@ -1,0 +1,15 @@
+.UpperTopNavbar-bg{
+    margin: 0;
+    background-color: #A6672B;
+    color: white;
+    font-size: 14px;
+    
+}
+@media only screen and (max-width: 600px){
+    .UpperTopNavbar-bg{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    }  
+}
